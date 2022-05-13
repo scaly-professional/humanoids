@@ -1,4 +1,8 @@
 # import the necessary packages
+# To run (from humanoids directory):
+# $ cd color_tracking
+# $ python3 one_color.py --video {video_name}.mp4
+
 from collections import deque
 from imutils.video import VideoStream
 import numpy as np
